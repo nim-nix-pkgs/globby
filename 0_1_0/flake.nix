@@ -11,7 +11,6 @@
   inputs.src-globby-0_1_0.ref   = "refs/tags/0.1.0";
   inputs.src-globby-0_1_0.owner = "treeform";
   inputs.src-globby-0_1_0.repo  = "globby";
-  inputs.src-globby-0_1_0.dir   = "";
   inputs.src-globby-0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

@@ -11,7 +11,6 @@
   inputs.src-globby-master.ref   = "refs/heads/master";
   inputs.src-globby-master.owner = "treeform";
   inputs.src-globby-master.repo  = "globby";
-  inputs.src-globby-master.dir   = "";
   inputs.src-globby-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
